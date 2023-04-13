@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) and (min-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  #nav-bar .nav-item a:nth-child(3) {
+    display: none;
+  }
+
+  #banner img {
+    height: auto;
+    width: 100%;
+    object-fit: fill;
+  }
+
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item a {
+    margin: 10px 0;
+  }
+
+  .nav-item h1 {
+    font-size: 1.5rem;
+  }
+
+  #target,
+  #personal-info {
+    width: 100%;
+  }
+
+  #about .container {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+  }
+
+  #job-info .container {
+    display: block;
+  }
+
+  .container .row-3 {
+    display: block;
+  }
+
+  .certificate-row {
+    padding: 10px;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-row:first-child {
+    border-right: none;
+  }
+
+  .certificate-row:last-child {
+    padding: 10px;
+  }
+  .certificate-row:last-child:after {
+    display: none;
+  }
+
+  #project .project-content {
+    display: block;
+  }
+
+  #project .project-content .project {
+    margin: 20px auto;
+  }
+
+  #footer ul {
+    max-width: 100%;
+  }
+}
