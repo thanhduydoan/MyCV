@@ -1,51 +1,55 @@
+# MyCV
 
+This is my MyCV project where I share information about myself and my personal profile.
 
-````
-Assignment 02 Stater
-├─ css
-│  ├─ font.css
-│  └─ style.css
-├─ fonts
-│  ├─ OpenSans-Italic-webfont.eot
-│  ├─ OpenSans-Italic-webfont.svg
-│  ├─ OpenSans-Italic-webfont.ttf
-│  ├─ OpenSans-Italic-webfont.woff
-│  ├─ OpenSans-Light-webfont.eot
-│  ├─ OpenSans-Light-webfont.svg
-│  ├─ OpenSans-Light-webfont.ttf
-│  ├─ OpenSans-Light-webfont.woff
-│  ├─ OpenSans-LightItalic-webfont.eot
-│  ├─ OpenSans-LightItalic-webfont.svg
-│  ├─ OpenSans-LightItalic-webfont.ttf
-│  ├─ OpenSans-LightItalic-webfont.woff
-│  ├─ OpenSans-Regular-webfont.eot
-│  ├─ OpenSans-Regular-webfont.svg
-│  ├─ OpenSans-Regular-webfont.ttf
-│  ├─ OpenSans-Regular-webfont.woff
-│  ├─ OpenSans-Semibold-webfont.eot
-│  ├─ OpenSans-Semibold-webfont.svg
-│  ├─ OpenSans-Semibold-webfont.ttf
-│  ├─ OpenSans-Semibold-webfont.woff
-│  ├─ et-line.eot
-│  ├─ et-line.svg
-│  ├─ et-line.ttf
-│  ├─ et-line.woff
-│  ├─ fontello.eot
-│  ├─ fontello.svg
-│  ├─ fontello.ttf
-│  └─ fontello.woff
-├─ icon-list.html
-├─ images
-│  ├─ Cert_PRF.png
-│  ├─ Cert_WEB.png
-│  ├─ banner.jpg
-│  ├─ default-avatar.webp
-│  ├─ funix-icon.png
-│  ├─ project_1.png
-│  ├─ project_2.png
-│  └─ project_3.png
-└─ index.html
+## Content
 
-```# DigtalCV
-# Assignment-3
-````
+This project includes the following files and folders:
+
+- **css**: Folder containing CSS files for the website's interface.
+- **fonts**: Folder containing font files used on the website.
+- **images**: Folder containing images used in the website.
+- **index.html**: The main file contains the content and structure of the home page.
+- **icon-list.html**: File contains a list of icons used on the website.
+- **new-file**: Directory containing new files added to the project.
+
+## Using
+
+To use this project, you can follow these steps:
+
+1. Clone the project to your computer using the following command in Terminal:
+
+`git clone https://github.com/thanhduydoan/MyCV.git`
+
+2. Open the file `index.html` in a web browser to view my personal website.
+
+## Contribute
+
+If you want to contribute to this project, you can follow these steps:
+
+1. Fork this project by clicking the "Fork" button in the upper right corner of the project page.
+  
+2. Clone the project from your account using the following git command:
+
+`git clone https://github.com/[your-account-name]/MyCV.git`
+
+3. Create a new branch to work on:
+
+`git checkout -b feature/your-feature-name`
+
+4. Make changes and commit:
+
+`git add .
+git commit -m "Add your changes"`
+
+5. Push changes to your branch:
+
+`git push origin feature/your-feature-name`
+
+6. Create a pull request from your branch to the main project's `main` branch.
+
+We welcome any contributions and comments from the community!
+
+## License
+
+This project is distributed under the [MIT License](LICENSE).
